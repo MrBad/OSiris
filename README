@@ -1,3 +1,5 @@
+A small kernel that i've wrote back in 2004 in ASM32 i386 for fun.
+
 depends on - bochs bochs-term bochsbios
 apt-get install bochs bochs-term bochsbios nasm
 to run - make run
