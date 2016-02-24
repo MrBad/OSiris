@@ -1,0 +1,31 @@
+16 mai 2004 - am terminat de scris mmaloc
+18 mai 2004 - am rescris functia mmaloc si mmfree ca aveau bug-uri
+18 mai 2004 - am scris o mica functie de defragmentare a memoriei wow, DOS-ul nu avea asa ceva
+			  windowsul95,98 nu stiu, poate o sa aflu; i-am dat teste, mere e recursiva
+			  maine cred ca o rescriu sa fie mai vizibila lizibila plauzibila si mai scurta
+			  adeca... optimizare manuala :)
+18-19 mai 2004
+			- am inceput sa scriu cateva functii pt irq-uri si programarea ipc-ului
+			- pic_irq_get/set_masq pic_reprogram ;
+19-20 mai 2004
+			- cateva rutine pentru a implementa screen-uri virtuale; 
+			  conceptul nu e nou, ideea e ca pot avea in acelasi timp mai multe ecrane pe acest
+			  ecran real al monitorului. (ideea de a putea avea 7 console interschimbabile)
+22 mai 2004
+			- am scris idt.asm si idt.inc
+			- to do : sa scriu exceptiile, si intreruperile soft cauzate de kernel, ca sa il protejam pe el de el :)
+			- intreruperile hardware - keyboard in primul rand... si altele			  			
+22-23 mai 2004
+			- am rescris o buna parte din idt.asm: acum merge :) toate functiile testate!
+24-25 mai 2004
+			- am scris rutinele de fault/trap ca sa se faca lumina in intuneric :)
+			-TO DO: de scurtat (la prop) interrupts.asm ca nu imi place ce mare e... :(
+30 mai 2004
+			-dupa o mica pauza - am inceput kbd.asm e cam gata dar e primitiv si tre legat de celelalte			
+30-31 ami 2004
+			-am scris scr.asm, neterminat, care implementeaza screenul
+			-screen.asm nu imi placea....
+7-8 iunie 2004
+			- rescris oleak kbd.asm, rescris scr_put_char, (scr.asm), schimbat mult in scr.asm
+			  o implementare chioara a functiei getch
+

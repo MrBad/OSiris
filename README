@@ -1,0 +1,3 @@
+depends on - bochs bochs-term bochsbios
+apt-get install bochs bochs-term bochsbios nasm
+to run - make run
